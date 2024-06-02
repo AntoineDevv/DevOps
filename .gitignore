@@ -1,0 +1,13 @@
+echo "# Ignore les fichiers et répertoires générés
+node_modules/
+.DS_Store
+*.log
+*.tmp
+.env
+
+# Ignorer les fichiers spécifiques de l'éditeur de code
+.vscode/
+.idea/
+
+# Ignorer les fichiers de système d'exploitation
+Thumbs.db" > .gitignore
